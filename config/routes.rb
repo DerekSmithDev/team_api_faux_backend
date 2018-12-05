@@ -7,23 +7,23 @@ Rails.application.routes.draw do
     patch "/students/:id" => "students#update"
     delete "/students/:id" => "students#destroy"
 
-    get '/experience' => 'experience#index'
-    post "/experience" => "experience#create"
-    get "/experience/:id" => "experience#show"
-    patch "/experience" => "experience#update"
-    delete "/experience/:id" => "experience#destroy"
+    # get '/experience' => 'experience#index'
+    # post "/experience" => "experience#create"
+    # get "/experience/:id" => "experience#show"
+    # patch "/experience" => "experience#update"
+    # delete "/experience/:id" => "experience#destroy"
 
-    get '/education' => 'education#index'
-    post "/education" => "education#create"
-    get "/education/:id" => "education#show"
-    patch "/education" => "education#update"
-    delete "/education/:id" => "education#destroy"
+    # get '/education' => 'education#index'
+    # post "/education" => "education#create"
+    # get "/education/:id" => "education#show"
+    # patch "/education" => "education#update"
+    # delete "/education/:id" => "education#destroy"
 
-    get '/skills' => 'skills#index'
-    post "/skills" => "skills#create"
-    get "/skills/:id" => "skills#show"
-    patch "/skills" => "skills#update"
-    delete "/skills/:id" => "skills#destroy"
+    # get '/skills' => 'skills#index'
+    # post "/skills" => "skills#create"
+    # get "/skills/:id" => "skills#show"
+    # patch "/skills" => "skills#update"
+    # delete "/skills/:id" => "skills#destroy"
 
     get '/capstone' => 'capstone#index'
     post "/capstone" => "capstone#create"

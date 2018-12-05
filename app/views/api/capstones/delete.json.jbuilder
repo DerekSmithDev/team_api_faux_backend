@@ -1,0 +1,1 @@
+json.Deleted_capstone @input_id
